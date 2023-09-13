@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Silvana Paiva">
+        <link rel="icon" type="image/png" href="icones/favicon-16x16.png">
+        <title>Recife</title>  
+        <style>
+            body{
+                background-color: whitesmoke;
+            }    
+            main{
+                width: 80%;
+                background-color: lightgoldenrodyellow;
+                margin: 10px auto 10px; 
+                border-radius: 25px;
+                border-color: lightgrey;
+            }
+            header{
+                text-align: center;
+                color: brown;
+            }
+            h4{
+                color: brown;
+            }
+            nav{
+                background-color: brown;
+            }
+            .imagem__principal{
+                text-align: center;
+            }
+            p{
+                text-align: justify;
+            }
+            article{
+                padding: 10px 10px 10px 10px;
+            }
+            footer{
+                text-align: center;
+                background-color: brown;
+                color: white;
+            }
+            img{
+                padding: 5px 5px 5px 5px;
+            }
+            .frames{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                width: 98%;
+            }
+            nav ul { 
+                list-style:none; 
+                margin:10px; 
+                padding:10px; 
+                display:flex; 
+                flex-direction: row; 
+                flex-wrap: nowrap; 
+                justify-content: space-around;
+            }
+            nav ul li a { 
+                font-size: 0.85em; 
+                text-decoration: none; 
+                color: #FFF; 
+                padding: 4px 20px 
+            }
+            nav ul li a:hover { 
+                background-color: lightcoral; 
+            }
+        </style>    
+    </head>
+    <body>
+        <header>
+            <h1 id="Inicio">Meus Lugares Favoritos</h1>
+        </header>
+        <main>
+            <nav>
+                <ul>
+                    <li><a href="/Exercicio_3_HTML_index.html#Home">Home</a></li>
+                    <li><a href="/Exercicio_3_HTML_index.html#Sobre">Sobre</a></li>
+                    <li><a href="/Exercicio_3_HTML_index.html#Fotos">Fotos</a></li>
+                    <li><a href="/Exercicio_3_HTML_index.html#Turismo">Turismo</a></li>
+                    <li><a href="/Exercicio_3_HTML_index.html#Mapa">Mapa</a></li>
+                </ul>
+            </nav>
+            <div class="imagem__principal">
+                <img src="/imagens/recife/imagem__1.jpg" width="80%">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#Antigo">Recife Antigo</a></li>
+                    <li><a href="#Praia">Praia de Boa Viagem</a></li>
+                    <li><a href="#Mercado">Mercado da Boa Vista</a></li>
+                    <li><a href="#Praca">Praça de Casa Forte</a></li>
+                </ul>
+            </nav>
+            <section>
+                <div>
+                    <h4 id="Antigo">Recife Antigo</h4>
+                    <p>
+                        Recife, mais conhecido como Recife Antigo, é um bairro da cidade do Recife, Pernambuco, Brasil que corresponde à parte leste do seu Centro Histórico.<br>Em seu ponto mais oriental, no Porto do Recife, situa-se a Praça Rio Branco – o Marco Zero, margeada pelo encontro dos rios Capibaribe e Beberibe com o Oceano Atlântico.
+                    </p>
+                    <div class="frames">
+                        <img src="/imagens/recife/antigo1.jpg" width="30%">
+                        <img src="/imagens/recife/antigo2.jpg" width="30%">
+                        <img src="/imagens/recife/antigo3.jpg" width="30%">
+                    </div>
+                    <h5><a href="#Inicio">Inicio</a></h5>
+                </div>
+                <div>
+                    <h4 id="Praia">Praia de Boa Viagem</h4>
+                    <p>
+                        A Praia de Boa Viagem é a praia urbana mais famosa da cidade do Recife, capital do estado brasileiro de Pernambuco.<br>Com aproximadamente oito quilômetros de extensão, está situada no bairro homônimo, Zona Sul da capital pernambucana, delimitada pela Praia do Pina ao norte e pela Praia de Piedade ao sul.
+                    </p>
+                    <div class="frames">
+                        <img src="/imagens/recife/boaviagem1.jpg" width="35%">
+                        <img src="/imagens/recife/boaviagem2.png" width="32%">
+                        <img src="/imagens/recife/boaviagem3.jpg" width="27%">
+                    </div>
+                    <h5><a href="#Inicio">Inicio</a></h5>
+                </div>
+                <div>
+                    <h4 id="Mercado">Mercado da Boa Vista</h4>
+                    <p>
+                        O Mercado da Boa Vista é tão antigo quanto o de São José. Possui 63 boxes, que comercializam cereais, verduras, frutas e legumes, carnes, aves e frios, além de ervas e armarinhos.<br>Há nove bares, que servem comida regional no café da manhã, almoço e jantar. A clientela é formada, principalmente, por sindicalistas e políticos, que se deliciam com o famoso patinho cozido no feijão preto.
+                    </p>
+                    <div class="frames">
+                        <img src="/imagens/recife/mercado1.jpg" width="45%">
+                        <img src="/imagens/recife/mercado2.jpg" width="45%">
+                    </div>
+                    <h5><a href="#Inicio">Inicio</a></h5>
+                </div>
+                <div>
+                    <h4 id="Praca">Praça de Casa Forte</h4>
+                    <p>
+                        A Praça de Casa Forte é uma praça localizada no bairro homônimo da cidade do Recife, Pernambuco, Brasil.<br>O nome foi dado em alusão ao antigo Engenho da Casa Forte, neste espaço ocorreu o Combate de Casa Forte, entre pernambucanos e holandeses, em 1645.
+                    </p>
+                    <div class="frames">
+                        <img src="/imagens/recife/praca1.jpeg" width="40%">
+                        <img src="/imagens/recife/praca2.jpg" width="40%">
+                    </div>
+                    <h5><a href="#Inicio">Inicio</a></h5>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <span>@SP2023</span>
+        </footer>
+    </body>
+</html>
